@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: blueviolet;
+   height: 100vh;
+}
+
+header {
+    height: 80px;
+    background-color: aqua;   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo__navbar {
+    height: 40px;
+    width: auto;
+}
+
+.menu__navbar {
+    padding: 80px;
+}
+
+.list__navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.item__navbar {
+   
+}
+
+
+ li a {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     size: 2em;
+    text-decoration: none;
+}
+
+.login {
+    background-color:dodgerblue;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 0 60px 0;
+}
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo__login {
+    padding: 0px 0 10px 0px;
+    height: 140px;
+    width: 140px;
+}
+input {
+    height: 34px;
+    width: 260px;
+    font-family: 'Lobster';
+    border: none;
+    border-bottom: 2px solid;
+    background-color:dodgerblue;
+}
+
+
+.btn__submit {
+    background-color: brown;
+    margin: 10px 0 0 0;
+   border: 1px solid black;
+}
